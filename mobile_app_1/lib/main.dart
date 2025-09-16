@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart';
-import 'package:my_app/screens/swipe.dart'; // <-- your CardSwipe page
-import 'package:my_app/screens/community_home.dart';
-import 'package:my_app/screens/create_post_page.dart';
+import 'screens/community_home.dart';
+import 'screens/swipe.dart';
+import 'screens/create_post_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
